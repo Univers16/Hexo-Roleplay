@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #banner1 {
@@ -76,12 +77,12 @@ body {
 
 .images {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .image-container {
     top: 100px;
-    width: 500px;
+    width: 570px;
     height: 270px;
     position: relative;
 }
@@ -148,6 +149,7 @@ body {
     display: block;
     background-color: #262625;
     height: 80px;
+    margin-top: 590px;
 }
 
 #footer p {
@@ -184,13 +186,52 @@ body {
     color: red;
 }
 
-#button a {
-    text-decoration: none;
-    font-style: normal;
-    font-family: Impact;
-    font-size: 5px;
+
+/*Pour Patch-Note*/
+
+#rectangle-large {
+    display : block;
+    background-color: #262625;
     position: relative;
-    text-align: center;
-    color: white;
-    top: 400px;
+    top: 250px;
+    left: 10%;
+    height: 5px;
+    width: 80%;
+}
+
+#rectangle-long {
+    display : block;
+    background-color: #262625;
+    position: relative;
+    left: 70%;
+    height: 80%;
+    width: 5px;
+}
+
+#pn1 p {
+    font-family: Arial Black;
+    position: relative;
+    left: 30%;
+    top: 180px;  /*1er*/
+}
+
+#pn2 p {
+    font-family: Arial Black;
+    position: relative;
+    left: 60%;
+    top: 140px;    /*2ème*/
+}
+
+#pn3 p {
+    font-family: Arial Black;
+    position: relative;
+    left: 60%;
+    top: 390px;     /*4ème*/
+}
+
+#pn4 p {
+    font-family: Arial Black;
+    position: relative;
+    left: 30%;
+    top: 350px;        /*3ème*/
 }

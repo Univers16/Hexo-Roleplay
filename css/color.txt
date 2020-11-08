@@ -4,3 +4,16 @@ Gris pour bande : #2c2b2b
 Couleur Titre : #181818
 
 Dimension image : 677x677 px
+
+#banner2 a p {
+    display: block;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 100%;
+    font-family: Impact;
+    font-style: italic;
+    color: red;
+}
